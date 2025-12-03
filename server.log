@@ -1,0 +1,30 @@
+
+> todo-api@1.0.0 dev
+> ts-node-dev --respawn --transpile-only src/server.ts
+
+[INFO] 18:39:41 ts-node-dev ver. 2.0.0 (using ts-node ver. 10.9.2, typescript ver. 5.9.3)
+TypeError: Cannot read properties of undefined (reading 'define')
+    at Function.init (/home/cgt_jod_lin_vaibhav/Project/TODO API/node_modules/sequelize/src/model.js:967:53)
+    at Object.<anonymous> (/home/cgt_jod_lin_vaibhav/Project/TODO API/src/models/User.ts:26:6)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (/home/cgt_jod_lin_vaibhav/Project/TODO API/node_modules/source-map-support/source-map-support.js:521:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-8588060397527917.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-8588060397527917.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-8588060397527917.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/cgt_jod_lin_vaibhav/Project/TODO API/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+[ERROR] 18:39:42 TypeError: Cannot read properties of undefined (reading 'define')
+[INFO] 18:39:59 Restarting: /home/cgt_jod_lin_vaibhav/Project/TODO API/src/models/User.ts has been modified
+TypeError: Cannot read properties of undefined (reading 'define')
+    at Function.init (/home/cgt_jod_lin_vaibhav/Project/TODO API/node_modules/sequelize/src/model.js:967:53)
+    at Object.<anonymous> (/home/cgt_jod_lin_vaibhav/Project/TODO API/src/models/User.ts:24:6)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (/home/cgt_jod_lin_vaibhav/Project/TODO API/node_modules/source-map-support/source-map-support.js:521:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-8588060397527917.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-8588060397527917.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-8588060397527917.js:71:20)
+    at Object.nodeDevHook [as .ts] (/home/cgt_jod_lin_vaibhav/Project/TODO API/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+[ERROR] 18:39:59 TypeError: Cannot read properties of undefined (reading 'define')
